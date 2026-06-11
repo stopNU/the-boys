@@ -1,8 +1,8 @@
-# 🍺 The Boys — Beer Quiz
+# 🍺 The Boys — Quiz Night
 
-A 20-question beer trivia showdown between **Patrick** and **Jacob**, built with [Vite](https://vite.dev) and React.
+Trivia showdowns between **Patrick** and **Jacob**, built with [Vite](https://vite.dev) and React.
 
-Each player picks who they are when opening the page, answers the questions one at a time, and their answers are saved in the browser (localStorage), so they can leave and resume. Once both finish, the scoreboard declares a winner.
+There are multiple quizzes (currently the **Beer Quiz** and the **Sofia Quiz**, 20 questions each). Each player picks a quiz and who they are, answers the questions one at a time, and gets instant feedback with a fun fact after every answer. Answers are saved in the browser (localStorage) per quiz and per player, so you can leave and resume. Once both players finish a quiz, the scoreboard declares a winner.
 
 Since scores are stored in the browser, both players should play on the same device — pass the phone between rounds.
 
@@ -19,7 +19,8 @@ npm run dev
 2. On [vercel.com](https://vercel.com), click **Add New → Project** and import the `the-boys` repo. Vercel auto-detects Vite — keep the defaults.
 3. Click **Deploy**. No environment variables needed.
 
-## Tweaking the content
+## Adding or editing quizzes
 
-- **Quiz questions**: edit `src/data/questions.js` (`answer` is the index of the correct choice).
-- **Players**: change the `PLAYERS` array in `src/pages/QuizPage.jsx`.
+- Quiz questions live in `src/data/` (`beerQuiz.js`, `sofiaQuiz.js`). Each question has `choices`, `answer` (index of the correct choice) and an optional `info` fact shown after answering.
+- To add a new quiz, create a questions file in `src/data/` and register it in `src/data/quizzes.js`.
+- To change the players, edit the `PLAYERS` array in `src/pages/QuizPage.jsx`.

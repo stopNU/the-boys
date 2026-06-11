@@ -1,5 +1,5 @@
 // 20 beer-themed quiz questions. `answer` is the index of the correct choice.
-export const questions = [
+export const beerQuestions = [
   {
     question: 'Which country drinks the most beer per capita?',
     choices: ['Germany', 'Czech Republic', 'Belgium', 'Ireland'],

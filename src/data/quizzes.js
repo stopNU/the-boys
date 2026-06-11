@@ -4,6 +4,7 @@ import { balkanQuestions } from './balkanQuiz'
 import { putinQuestions } from './putinQuiz'
 import { spiritsQuestions } from './spiritsQuiz'
 import { weirdHistoryQuestions } from './weirdHistoryQuiz'
+import { trumpQuestions } from './trumpQuiz'
 
 // To add a new quiz, create a questions file like sofiaQuiz.js and list it here.
 export const quizzes = [
@@ -41,6 +42,13 @@ export const quizzes = [
     title: 'Spirits & Cocktails',
     description: 'Rakia, whiskey and what’s actually in a negroni.',
     questions: spiritsQuestions,
+  },
+  {
+    id: 'trump',
+    emoji: '🦅',
+    title: 'The Trump Quiz',
+    description: 'Escalators, covfefe and very tremendous questions.',
+    questions: trumpQuestions,
   },
   {
     id: 'weird-history',

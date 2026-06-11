@@ -1,0 +1,138 @@
+// 20 questions on the life and times of Donald Trump.
+export const trumpQuestions = [
+  {
+    question: 'In which New York City borough was Donald Trump born?',
+    choices: ['Manhattan', 'Brooklyn', 'Queens', 'The Bronx'],
+    answer: 2,
+    info: 'Born in Queens in 1946, son of real estate developer Fred Trump — the Manhattan skyline came later.',
+  },
+  {
+    question: 'What was Trump’s catchphrase on The Apprentice?',
+    choices: ['"You’re out!"', '"You’re fired!"', '"Pack your bags!"', '"Next!"'],
+    answer: 1,
+    info: 'He hosted The Apprentice from 2004 to 2015 and even tried to trademark "You’re fired!".',
+  },
+  {
+    question: 'In which movie does Trump have a famous cameo?',
+    choices: ['Ghostbusters', 'Home Alone 2: Lost in New York', 'Wall Street', 'Men in Black'],
+    answer: 1,
+    info: 'He gives Kevin directions in the Plaza Hotel — which Trump owned at the time. He reportedly demanded a cameo in exchange for filming there.',
+  },
+  {
+    question: 'What did Trump do to Vince McMahon after winning the "Battle of the Billionaires" at WrestleMania 23?',
+    choices: ['Body-slammed him', 'Shaved his head', 'Threw him out of the ring', 'Made him wear a Trump tie'],
+    answer: 1,
+    info: 'The 2007 "Hair vs. Hair" match ended with Trump shaving McMahon bald in the ring. He’s in the WWE Hall of Fame for it.',
+  },
+  {
+    question: 'What was the title of Trump’s 1987 bestselling book?',
+    choices: ['The Art of the Deal', 'Think Big', 'How to Get Rich', 'The America We Deserve'],
+    answer: 0,
+    info: 'The Art of the Deal made him a household name — he has called it his second-favorite book after the Bible.',
+  },
+  {
+    question: 'How did Trump famously launch his 2015 presidential campaign?',
+    choices: [
+      'Skydiving into a rally',
+      'Riding down a golden escalator',
+      'Driving a monster truck',
+      'On The Apprentice finale',
+    ],
+    answer: 1,
+    info: 'The golden escalator ride down Trump Tower into the announcement is now one of the most replayed clips in political history.',
+  },
+  {
+    question: 'Who did Trump defeat in the 2016 presidential election?',
+    choices: ['Barack Obama', 'Joe Biden', 'Hillary Clinton', 'Bernie Sanders'],
+    answer: 2,
+    info: 'He lost the popular vote but won the electoral college in one of the biggest upsets in US election history.',
+  },
+  {
+    question: 'According to Trump’s signature 2016 campaign promise, who was going to pay for the border wall?',
+    choices: ['Canada', 'US taxpayers', 'Mexico', 'The UN'],
+    answer: 2,
+    info: '"And who’s gonna pay for it?" — "MEXICO!" was the signature rally call-and-response. Mexico, for the record, did not pay.',
+  },
+  {
+    question: 'What mysterious word did Trump tweet at midnight in 2017, breaking the internet?',
+    choices: ['Covfefe', 'Bigly', 'Hamberder', 'Smocking'],
+    answer: 0,
+    info: '"Despite the constant negative press covfefe" — the tweet stayed up for hours and was never fully explained. (Hamberders came later.)',
+  },
+  {
+    question: 'What nickname did Trump give Kim Jong Un?',
+    choices: ['Little Rocket Man', 'Crazy Kim', 'The Nuke Guy', 'Mini Kim'],
+    answer: 0,
+    info: 'After trading threats in 2017, the two later exchanged what Trump called "beautiful letters" and he said they "fell in love".',
+  },
+  {
+    question: 'In 2019, Trump became the first sitting US president to do what?',
+    choices: [
+      'Visit Antarctica',
+      'Step into North Korea',
+      'Attend WrestleMania in office',
+      'Host the Olympics at the White House',
+    ],
+    answer: 1,
+    info: 'He crossed the demarcation line at the DMZ to shake hands with Kim Jong Un on North Korean soil.',
+  },
+  {
+    question: 'How many times was Trump impeached during his first term?',
+    choices: ['Never', 'Once', 'Twice', 'Three times'],
+    answer: 2,
+    info: 'He is the only US president to be impeached twice — and was acquitted by the Senate both times.',
+  },
+  {
+    question: 'What is the name of the social media platform Trump launched?',
+    choices: ['Parler', 'Truth Social', 'MAGAbook', 'FreeSpeech'],
+    answer: 1,
+    info: 'He launched Truth Social in 2022 after being banned from Twitter, where posts are called "Truths".',
+  },
+  {
+    question: 'In which state is Trump’s Mar-a-Lago resort?',
+    choices: ['New York', 'New Jersey', 'Florida', 'Texas'],
+    answer: 2,
+    info: 'The Palm Beach club became the "Winter White House" — and his official residence after he left New York.',
+  },
+  {
+    question: 'Which territory did Trump famously float buying in 2019?',
+    choices: ['Iceland', 'Greenland', 'Cuba', 'The Faroe Islands'],
+    answer: 1,
+    info: 'Denmark called the idea absurd; Trump called the Danish PM’s response "nasty" and cancelled his state visit. He has not let it go since.',
+  },
+  {
+    question: 'Which song is Trump’s signature rally dance set to?',
+    choices: ['Sweet Caroline', 'YMCA', 'Born in the USA', 'Eye of the Tiger'],
+    answer: 1,
+    info: 'The two-fist YMCA dance became such a thing that athletes worldwide started doing the "Trump dance" as a celebration in 2024.',
+  },
+  {
+    question: 'During the 2024 campaign, Trump worked a publicity shift doing what?',
+    choices: [
+      'Driving a garbage truck',
+      'Frying fries at McDonald’s',
+      'Cutting hair in a barbershop',
+      'Bagging groceries at Walmart',
+    ],
+    answer: 1,
+    info: 'He manned the fry station and served at the drive-through window in Pennsylvania. (The garbage truck happened too, separately — that one was a trick option.)',
+  },
+  {
+    question: 'Who did Trump defeat in the 2024 presidential election?',
+    choices: ['Joe Biden', 'Kamala Harris', 'Gavin Newsom', 'Hillary Clinton again'],
+    answer: 1,
+    info: 'Harris replaced Biden on the ticket mid-campaign after his withdrawal; Trump won the electoral college and the popular vote.',
+  },
+  {
+    question: 'Trump is both the 45th and which other number president of the United States?',
+    choices: ['46th', '47th', '48th', 'He kept the number 45'],
+    answer: 1,
+    info: 'Only Grover Cleveland had previously served two non-consecutive terms, making Trump the second president with two numbers.',
+  },
+  {
+    question: 'Which of these was NOT a real Trump-branded product?',
+    choices: ['Trump Steaks', 'Trump Vodka', 'Trump: The Game', 'Trump Sunscreen'],
+    answer: 3,
+    info: 'The steaks, the vodka and the Monopoly-style board game were all real. So were Trump Shuttle (an airline) and Trump University.',
+  },
+]

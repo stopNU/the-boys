@@ -27,9 +27,9 @@ function scoreFor(quiz, answers) {
 
 function QuizPicker({ onSelect }) {
   return (
-    <div className="quiz-card">
+    <div className="quiz-home">
       <h2>Pick a quiz</h2>
-      <p>Most correct answers wins. Loser buys the next round.</p>
+      <p className="quiz-home-subtitle">Most correct answers wins. Loser buys the next round.</p>
       <div className="quiz-list">
         {quizzes.map((quiz) => {
           const finished = PLAYERS.filter(
@@ -239,12 +239,23 @@ export default function QuizPage() {
     )
   }
 
+  const quit = () => {
+    setQuiz(null)
+    setPlayer(null)
+    setReviewing(null)
+  }
+
   const index = showingFeedback ? reviewing : answers.length
   return (
     <div className="quiz-wrapper">
-      <p className="playing-as">
-        {quiz.emoji} {quiz.title} — playing as <strong>{player}</strong>
-      </p>
+      <div className="quiz-topbar">
+        <span className="playing-as">
+          {quiz.emoji} {quiz.title} — <strong>{player}</strong>
+        </span>
+        <button className="close-button" onClick={quit} aria-label="Exit quiz" title="Exit quiz">
+          ✕
+        </button>
+      </div>
       <Question
         quiz={quiz}
         index={index}

@@ -1,0 +1,133 @@
+// 20 questions on spirits and cocktails.
+export const spiritsQuestions = [
+  {
+    question: 'Traditional Bulgarian rakia is most commonly made from which fruit?',
+    choices: ['Apples', 'Grapes', 'Watermelon', 'Cherries'],
+    answer: 1,
+    info: 'Grape rakia (grozdova) is the classic, with plum (slivova) and apricot (kaysieva) close behind. Homemade is always "the best one".',
+  },
+  {
+    question: 'What spirit is the base of a mojito?',
+    choices: ['Vodka', 'Gin', 'Rum', 'Tequila'],
+    answer: 2,
+    info: 'White rum, lime, mint, sugar and soda — Cuba’s most famous export after cigars.',
+  },
+  {
+    question: 'Tequila must be made from which plant?',
+    choices: ['Cactus', 'Blue agave', 'Sugar cane', 'Corn'],
+    answer: 1,
+    info: 'Only blue agave, and only from designated regions of Mexico, can legally become tequila.',
+  },
+  {
+    question: 'The word "whisky" comes from a Gaelic phrase meaning what?',
+    choices: ['Fire drink', 'Water of life', 'Golden barley', 'Old friend'],
+    answer: 1,
+    info: '"Uisge beatha" means water of life — the same idea behind aquavit and eau de vie.',
+  },
+  {
+    question: 'A negroni contains gin, Campari and what third ingredient?',
+    choices: ['Sweet vermouth', 'Triple sec', 'Aperol', 'Tonic water'],
+    answer: 0,
+    info: 'Equal parts gin, Campari and sweet vermouth — invented in Florence when a count asked to make his cocktail stronger.',
+  },
+  {
+    question: 'The origin of vodka is famously disputed between which two countries?',
+    choices: ['Russia and Ukraine', 'Russia and Poland', 'Sweden and Finland', 'Russia and Belarus'],
+    answer: 1,
+    info: 'Russia and Poland have argued about who invented vodka for centuries. Nobody is backing down.',
+  },
+  {
+    question: 'Bourbon must be made with at least 51% of which grain?',
+    choices: ['Barley', 'Rye', 'Corn', 'Wheat'],
+    answer: 2,
+    info: 'At least 51% corn, aged in new charred oak barrels — that’s what separates bourbon from other whiskeys.',
+  },
+  {
+    question: 'Ouzo, the Greek national spirit, is flavored with what?',
+    choices: ['Anise', 'Mint', 'Honey', 'Pine resin'],
+    answer: 0,
+    info: 'Anise gives ouzo its licorice taste and the famous milky cloud when you add water.',
+  },
+  {
+    question: 'Which cocktail combines vodka, ginger beer and lime?',
+    choices: ['Dark ’n’ Stormy', 'Moscow Mule', 'White Russian', 'Sea Breeze'],
+    answer: 1,
+    info: 'The Moscow Mule, traditionally served in a copper mug, was invented in Hollywood, not Moscow.',
+  },
+  {
+    question: 'Jägermeister is flavored with how many herbs and spices?',
+    choices: ['7', '23', '56', '99'],
+    answer: 2,
+    info: '56 ingredients, and the exact recipe is a closely guarded German secret.',
+  },
+  {
+    question: 'Which fictional character famously orders martinis "shaken, not stirred"?',
+    choices: ['Sherlock Holmes', 'James Bond', 'Don Draper', 'Tony Stark'],
+    answer: 1,
+    info: 'Bartenders will tell you stirring is actually better for a martini, but try telling 007 that.',
+  },
+  {
+    question: 'What is the typical alcohol content of standard vodka?',
+    choices: ['20%', '30%', '40%', '50%'],
+    answer: 2,
+    info: '40% ABV is the international standard — allegedly standardized in Russia in the 19th century.',
+  },
+  {
+    question: 'Absinthe gets its reputation (and name) from which plant?',
+    choices: ['Wormwood', 'Elderflower', 'Nettle', 'Green tea'],
+    answer: 0,
+    info: 'Grand wormwood (Artemisia absinthium) gave absinthe its name and its exaggerated reputation for causing madness.',
+  },
+  {
+    question: 'A "single malt" Scotch whisky must come from what?',
+    choices: [
+      'A single barrel',
+      'A single distillery, from malted barley',
+      'A single year’s harvest',
+      'A single glen in Scotland',
+    ],
+    answer: 1,
+    info: 'One distillery, 100% malted barley. It can still be a blend of different casks from that distillery.',
+  },
+  {
+    question: 'What goes into a Cuba Libre besides rum and lime?',
+    choices: ['Ginger ale', 'Cola', 'Soda water', 'Pineapple juice'],
+    answer: 1,
+    info: 'Rum and cola with lime — named after the Cuban independence rallying cry "Free Cuba!".',
+  },
+  {
+    question: 'Which liqueur powers an espresso martini?',
+    choices: ['Amaretto', 'Coffee liqueur', 'Baileys', 'Sambuca'],
+    answer: 1,
+    info: 'Vodka, espresso and coffee liqueur — invented in 1980s London when a model asked for something to "wake me up".',
+  },
+  {
+    question: 'In Bulgaria, rakia is traditionally drunk alongside which dish?',
+    choices: ['Banitsa', 'Shopska salad', 'Kebapche', 'Tarator'],
+    answer: 1,
+    info: 'Rakia plus shopska salad is the sacred opening move of any proper Bulgarian dinner.',
+  },
+  {
+    question: 'What gives gin its signature flavor?',
+    choices: ['Juniper berries', 'Citrus peel', 'Coriander', 'Cucumber'],
+    answer: 0,
+    info: 'Juniper is legally required to be the dominant flavor — everything else is supporting cast.',
+  },
+  {
+    question: 'Cognac can only be called cognac if it is produced where?',
+    choices: ['Anywhere in France', 'The Cognac region of France', 'Bordeaux', 'Champagne'],
+    answer: 1,
+    info: 'Like champagne, it’s protected by region — the same spirit made elsewhere is just brandy.',
+  },
+  {
+    question: 'According to Bulgarian toasting etiquette, what must you do when clinking glasses and saying "Nazdrave"?',
+    choices: [
+      'Close your eyes',
+      'Look the other person in the eyes',
+      'Touch the table with your glass',
+      'Drink the whole glass at once',
+    ],
+    answer: 1,
+    info: 'Eye contact during the clink is mandatory — skipping it is considered bad luck and worse manners.',
+  },
+]

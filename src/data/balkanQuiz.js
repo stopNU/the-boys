@@ -1,0 +1,123 @@
+// 20 questions on Russian and Bulgarian history plus Balkan trivia.
+export const balkanQuestions = [
+  {
+    question: 'Which empire ruled Bulgaria for nearly 500 years until 1878?',
+    choices: ['The Roman Empire', 'The Ottoman Empire', 'The Austro-Hungarian Empire', 'The Russian Empire'],
+    answer: 1,
+    info: 'Ottoman rule lasted from the late 14th century until the Liberation in 1878 — a period Bulgarians call "the yoke".',
+  },
+  {
+    question: 'Which war led to Bulgaria’s liberation in 1878?',
+    choices: ['The Crimean War', 'The First Balkan War', 'The Russo-Turkish War', 'World War I'],
+    answer: 2,
+    info: 'The Russo-Turkish War of 1877–78 ended Ottoman rule, which is why March 3 (Treaty of San Stefano) is the national holiday.',
+  },
+  {
+    question: 'The Monument to the Tsar Liberator in central Sofia honors which Russian emperor?',
+    choices: ['Peter the Great', 'Alexander II', 'Nicholas II', 'Ivan the Terrible'],
+    answer: 1,
+    info: 'Alexander II led Russia during the liberation war, earning the nickname "Tsar Osvoboditel" in Bulgaria.',
+  },
+  {
+    question: 'At which mountain pass did Russian soldiers and Bulgarian volunteers hold off a huge Ottoman force in 1877?',
+    choices: ['Shipka Pass', 'Petrohan Pass', 'Troyan Pass', 'Vitinya Pass'],
+    answer: 0,
+    info: 'The defense of Shipka Pass is one of the most celebrated moments in Bulgarian history, with the opalchentsi fighting alongside Russian troops.',
+  },
+  {
+    question: 'Who was communist Bulgaria’s leader for 35 years, from 1954 to 1989?',
+    choices: ['Georgi Dimitrov', 'Todor Zhivkov', 'Petar Mladenov', 'Valko Chervenkov'],
+    answer: 1,
+    info: 'Todor Zhivkov was the longest-serving leader in the entire Eastern Bloc — and the butt of half of Bulgaria’s communist-era jokes.',
+  },
+  {
+    question: 'The spaceship-looking Buzludzha monument was built to honor what?',
+    choices: ['The Bulgarian space program', 'The Bulgarian Communist Party', 'Victory in WWII', 'Bulgarian aviation pioneers'],
+    answer: 1,
+    info: 'Opened in 1981 as the House-Monument of the Bulgarian Communist Party, it’s now one of Europe’s most famous abandoned buildings.',
+  },
+  {
+    question: 'During the Cold War, Bulgaria was jokingly called the USSR’s what?',
+    choices: ['Little brother', '16th republic', 'Southern fortress', 'Backup plan'],
+    answer: 1,
+    info: 'Bulgaria followed Moscow so loyally that people joked it was the unofficial 16th Soviet republic — Zhivkov reportedly even floated joining for real.',
+  },
+  {
+    question: 'In which year did the Red Army enter Bulgaria during WWII?',
+    choices: ['1941', '1943', '1944', '1945'],
+    answer: 2,
+    info: 'The USSR declared war on Bulgaria in September 1944; days later the communist-led Fatherland Front took power in a coup.',
+  },
+  {
+    question: 'Which dynasty ruled Russia for about 300 years until the 1917 revolution?',
+    choices: ['The Rurikids', 'The Romanovs', 'The Habsburgs', 'The Godunovs'],
+    answer: 1,
+    info: 'The Romanovs ruled from 1613 until Nicholas II abdicated in 1917, ending the Russian monarchy.',
+  },
+  {
+    question: 'Who led the October Revolution of 1917?',
+    choices: ['Stalin', 'Trotsky', 'Lenin', 'Kerensky'],
+    answer: 2,
+    info: 'Lenin’s Bolsheviks seized power in October 1917 (November by the modern calendar, just to confuse everyone).',
+  },
+  {
+    question: 'What was St. Petersburg called during most of the Soviet era?',
+    choices: ['Stalingrad', 'Leningrad', 'Petrograd', 'Kaliningrad'],
+    answer: 1,
+    info: 'It went Petersburg → Petrograd → Leningrad → back to St. Petersburg in 1991. The locals barely had time to update business cards.',
+  },
+  {
+    question: 'In which year did the Soviet Union officially dissolve?',
+    choices: ['1989', '1990', '1991', '1993'],
+    answer: 2,
+    info: 'The USSR was dissolved in December 1991, and the hammer-and-sickle flag came down over the Kremlin on December 25.',
+  },
+  {
+    question: 'Which Balkan country violently broke apart during the 1990s?',
+    choices: ['Albania', 'Yugoslavia', 'Romania', 'Greece'],
+    answer: 1,
+    info: 'Yugoslavia splintered into what eventually became seven countries — the bloodiest European conflict since WWII.',
+  },
+  {
+    question: 'How many countries does Bulgaria share a border with?',
+    choices: ['3', '4', '5', '6'],
+    answer: 2,
+    info: 'Five: Romania, Serbia, North Macedonia, Greece and Turkey. The Black Sea handles the sixth side.',
+  },
+  {
+    question: 'Which river forms most of the border between Bulgaria and Romania?',
+    choices: ['The Maritsa', 'The Danube', 'The Iskar', 'The Struma'],
+    answer: 1,
+    info: 'The Danube runs along almost the entire northern border — and Ruse on its bank is called "Little Vienna".',
+  },
+  {
+    question: 'Skopje is the capital of which Balkan country?',
+    choices: ['North Macedonia', 'Albania', 'Kosovo', 'Montenegro'],
+    answer: 0,
+    info: 'North Macedonia — the name dispute with Greece took nearly 30 years to settle, very on-brand for the Balkans.',
+  },
+  {
+    question: 'Belgrade, the capital of Serbia, sits at the meeting point of which two rivers?',
+    choices: ['Danube and Sava', 'Danube and Drina', 'Sava and Morava', 'Danube and Tisza'],
+    answer: 0,
+    info: 'The Sava flows into the Danube right below the Belgrade fortress — prime real estate fought over for two millennia.',
+  },
+  {
+    question: 'In which years were the two Balkan Wars fought?',
+    choices: ['1905–1906', '1912–1913', '1918–1919', '1923–1924'],
+    answer: 1,
+    info: 'Bulgaria won big in the first war, then lost to basically all its neighbors at once in the second. Classic.',
+  },
+  {
+    question: 'What did Bulgaria and Romania do together in 2007?',
+    choices: ['Hosted the Olympics', 'Joined the European Union', 'Merged their currencies', 'Built a Danube tunnel'],
+    answer: 1,
+    info: 'Both joined the EU on January 1, 2007, in the same enlargement wave.',
+  },
+  {
+    question: 'Which sea borders Bulgaria to the east?',
+    choices: ['The Adriatic Sea', 'The Aegean Sea', 'The Black Sea', 'The Caspian Sea'],
+    answer: 2,
+    info: 'The Black Sea coast is Bulgaria’s summer playground — Varna and Burgas being the main hubs.',
+  },
+]

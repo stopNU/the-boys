@@ -1,0 +1,123 @@
+// 20 questions on the life and times of Vladimir Putin.
+export const putinQuestions = [
+  {
+    question: 'In which city was Vladimir Putin born?',
+    choices: ['Moscow', 'Leningrad (St. Petersburg)', 'Volgograd', 'Yekaterinburg'],
+    answer: 1,
+    info: 'Putin was born in Leningrad in 1952 and grew up in a communal apartment, famously chasing rats in the stairwell.',
+  },
+  {
+    question: 'In what year was Putin born?',
+    choices: ['1948', '1952', '1956', '1960'],
+    answer: 1,
+    info: 'October 7, 1952 — making him a child of the post-war Soviet generation.',
+  },
+  {
+    question: 'Which Soviet agency did Putin work for before politics?',
+    choices: ['The GRU', 'The KGB', 'The Red Army', 'The Foreign Ministry'],
+    answer: 1,
+    info: 'He joined the KGB straight out of law school in 1975, reportedly inspired by Soviet spy films.',
+  },
+  {
+    question: 'In which East German city was Putin stationed as a KGB officer?',
+    choices: ['East Berlin', 'Leipzig', 'Dresden', 'Potsdam'],
+    answer: 2,
+    info: 'He served in Dresden from 1985 to 1990 and watched the Berlin Wall era collapse from there.',
+  },
+  {
+    question: 'Putin holds a black belt in which martial art?',
+    choices: ['Karate', 'Judo', 'Taekwondo', 'Sambo only'],
+    answer: 1,
+    info: 'Judo has been his sport since his teens — he even co-authored a book called "Judo: History, Theory, Practice".',
+  },
+  {
+    question: 'Besides Russian, which language does Putin speak fluently?',
+    choices: ['English', 'French', 'German', 'Chinese'],
+    answer: 2,
+    info: 'His Dresden years made his German good enough to give a speech in the Bundestag in 2001.',
+  },
+  {
+    question: 'In the 1990s, Putin worked in the city government of which city?',
+    choices: ['Moscow', 'St. Petersburg', 'Novosibirsk', 'Sochi'],
+    answer: 1,
+    info: 'He was a top aide to St. Petersburg mayor Anatoly Sobchak — his springboard into national politics.',
+  },
+  {
+    question: 'Who appointed Putin as Russia’s prime minister in 1999?',
+    choices: ['Mikhail Gorbachev', 'Boris Yeltsin', 'Viktor Chernomyrdin', 'Yevgeny Primakov'],
+    answer: 1,
+    info: 'Yeltsin made the then-unknown Putin PM in August 1999, then resigned on New Year’s Eve, handing him the presidency.',
+  },
+  {
+    question: 'In which year did Putin first become president of Russia?',
+    choices: ['1998', '2000', '2002', '2004'],
+    answer: 1,
+    info: 'He won the March 2000 election after serving as acting president — and has dominated Russian politics ever since.',
+  },
+  {
+    question: 'Who held the presidency between 2008 and 2012 while Putin served as prime minister?',
+    choices: ['Dmitry Medvedev', 'Sergei Lavrov', 'Mikhail Fradkov', 'Sergei Shoigu'],
+    answer: 0,
+    info: 'The famous "castling" move: Medvedev kept the seat warm for four years, then they swapped right back.',
+  },
+  {
+    question: 'Putin called the collapse of the Soviet Union the greatest what of the 20th century?',
+    choices: ['Betrayal', 'Geopolitical catastrophe', 'Misunderstanding', 'Western victory'],
+    answer: 1,
+    info: 'The quote is from his 2005 state-of-the-nation address and gets cited in basically every Putin documentary.',
+  },
+  {
+    question: 'In which famous 2007 speech did Putin openly attack the US-led world order?',
+    choices: ['The Davos speech', 'The Munich speech', 'The Valdai speech', 'The UN speech'],
+    answer: 1,
+    info: 'His speech at the Munich Security Conference is widely seen as the turning point in relations with the West.',
+  },
+  {
+    question: 'What animal is Putin most famously photographed riding shirtless?',
+    choices: ['A bear', 'A horse', 'A camel', 'A motorcycle (close enough)'],
+    answer: 1,
+    info: 'The 2009 shirtless horseback photos from Siberia became the defining image of Putin’s macho PR machine.',
+  },
+  {
+    question: 'In 2012, Putin flew a motorized hang glider to lead a flock of which birds?',
+    choices: ['Siberian cranes', 'White storks', 'Snow geese', 'Imperial eagles'],
+    answer: 0,
+    info: 'The "crane flight" was meant to guide endangered Siberian cranes on their migration route. The cranes were reportedly unimpressed.',
+  },
+  {
+    question: 'Putin plays exhibition games in which sport, routinely scoring suspiciously many goals?',
+    choices: ['Football', 'Ice hockey', 'Basketball', 'Water polo'],
+    answer: 1,
+    info: 'In gala ice hockey matches he has scored as many as eight goals a game, with defenders showing remarkable restraint.',
+  },
+  {
+    question: 'Which peninsula did Russia annex in 2014?',
+    choices: ['Kamchatka', 'Crimea', 'Kola', 'Taman'],
+    answer: 1,
+    info: 'The annexation of Crimea from Ukraine triggered the first big wave of Western sanctions against Russia.',
+  },
+  {
+    question: 'In which year did Russia launch its full-scale invasion of Ukraine?',
+    choices: ['2014', '2020', '2022', '2023'],
+    answer: 2,
+    info: 'February 24, 2022 — the largest war in Europe since WWII.',
+  },
+  {
+    question: 'What 2022 Putin prop became a global meme during meetings with foreign leaders?',
+    choices: ['A golden throne', 'An absurdly long white table', 'A giant globe', 'A bulletproof aquarium'],
+    answer: 1,
+    info: 'The six-meter table kept Macron and others at a very safe diplomatic distance, and the internet did the rest.',
+  },
+  {
+    question: 'In 2010, Bulgaria’s PM Boyko Borissov gave Putin what gift?',
+    choices: ['A barrel of rakia', 'A Karakachan shepherd dog', 'A golden martenitsa', 'A replica Thracian sword'],
+    answer: 1,
+    info: 'The puppy, named Buffy, is a Bulgarian Karakachan shepherd — possibly Bulgaria’s most famous diplomatic export.',
+  },
+  {
+    question: 'Counting both his presidencies and his stint as PM, roughly how long has Putin run Russia as of 2026?',
+    choices: ['About 15 years', 'About 20 years', 'More than 25 years', 'Exactly 10 years'],
+    answer: 2,
+    info: 'In power since August 1999 — longer than Brezhnev, and closing in on Stalin’s record.',
+  },
+]

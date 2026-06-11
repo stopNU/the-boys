@@ -1,0 +1,128 @@
+// 20 questions on history's weirdest true stories.
+export const weirdHistoryQuestions = [
+  {
+    question: 'In 1932, Australia declared "war" on which animal — and lost?',
+    choices: ['Kangaroos', 'Emus', 'Crocodiles', 'Rabbits'],
+    answer: 1,
+    info: 'The Great Emu War: soldiers with machine guns versus 20,000 emus. The emus won. Australia tried twice.',
+  },
+  {
+    question: 'The shortest war in recorded history, between Britain and Zanzibar in 1896, lasted about how long?',
+    choices: ['38 minutes', '4 hours', '2 days', '1 week'],
+    answer: 0,
+    info: 'Roughly 38 minutes from first shot to surrender. The sultan’s palace did not hold up well against the Royal Navy.',
+  },
+  {
+    question: 'Ancient Romans commonly used what as a teeth whitener?',
+    choices: ['Crushed pearls', 'Urine', 'Olive oil', 'Wine vinegar'],
+    answer: 1,
+    info: 'The ammonia in urine actually works as a bleaching agent. Portuguese urine was considered premium quality.',
+  },
+  {
+    question: 'In 1518, hundreds of people in Strasbourg were struck by an uncontrollable plague of what?',
+    choices: ['Laughing', 'Dancing', 'Sneezing', 'Hiccups'],
+    answer: 1,
+    info: 'The Dancing Plague of 1518: people danced for days, some reportedly to death. The official cure prescribed? More dancing.',
+  },
+  {
+    question: 'Napoleon was once forced to retreat from a hunting party after being swarmed by what?',
+    choices: ['Bees', 'Rabbits', 'Geese', 'Wild boars'],
+    answer: 1,
+    info: 'His staff released hundreds of tame rabbits for an easy hunt. The rabbits, expecting food, charged the Emperor instead.',
+  },
+  {
+    question: 'Con man Victor Lustig famously "sold" which landmark — twice?',
+    choices: ['Big Ben', 'The Eiffel Tower', 'The Colosseum', 'The Brooklyn Bridge'],
+    answer: 1,
+    info: 'In 1925 he posed as a government official selling the Eiffel Tower for scrap. The first victim was too embarrassed to report it, so Lustig did it again.',
+  },
+  {
+    question: 'How did athletes compete in the ancient Greek Olympics?',
+    choices: ['In full armor', 'Completely naked', 'Blindfolded', 'In animal costumes'],
+    answer: 1,
+    info: 'Nude, oiled up, and proud of it. The word "gymnasium" literally comes from gymnos — naked.',
+  },
+  {
+    question: 'In 897, Pope Stephen VI put what on trial in the "Cadaver Synod"?',
+    choices: ['A pig', 'The corpse of a previous pope', 'A book', 'The city of Rome itself'],
+    answer: 1,
+    info: 'He dug up Pope Formosus, dressed the corpse in papal robes, and prosecuted it in court. The corpse lost.',
+  },
+  {
+    question: 'In the 1630s, the Dutch went into a speculative frenzy over what?',
+    choices: ['Tulip bulbs', 'Windmills', 'Cheese wheels', 'Beaver hats'],
+    answer: 0,
+    info: 'At the peak of tulip mania, a single rare bulb could cost more than an Amsterdam canal house.',
+  },
+  {
+    question: 'In 1814, eight Londoners were killed by a flood of what?',
+    choices: ['Tea', 'Beer', 'Gin', 'Sewage'],
+    answer: 1,
+    info: 'The London Beer Flood: a brewery vat burst and released over a million liters of porter into the streets. A genuinely tragic waste.',
+  },
+  {
+    question: 'Boston suffered a deadly flood in 1919 involving what substance?',
+    choices: ['Molasses', 'Milk', 'Whale oil', 'Maple syrup'],
+    answer: 0,
+    info: 'A tank holding 8.7 million liters of molasses burst, sending a wave through the streets at 56 km/h. Locals claimed the area smelled sweet for decades.',
+  },
+  {
+    question: 'Which US president, according to legend, once got stuck in the White House bathtub?',
+    choices: ['Theodore Roosevelt', 'William Howard Taft', 'Grover Cleveland', 'Warren Harding'],
+    answer: 1,
+    info: 'Taft weighed around 150 kg. The story is probably exaggerated, but he really did install an oversized custom tub.',
+  },
+  {
+    question: 'Roman emperor Caligula allegedly planned to give which job to his horse Incitatus?',
+    choices: ['General', 'Consul', 'High priest', 'Tax collector'],
+    answer: 1,
+    info: 'Consul — one of Rome’s highest offices. The horse already had a marble stable and an ivory manger, so why not a career.',
+  },
+  {
+    question: 'In WWII, the Allies fooled German intelligence using inflatable what?',
+    choices: ['Soldiers', 'Tanks', 'Battleships', 'Bridges'],
+    answer: 1,
+    info: 'The "Ghost Army" deployed inflatable tanks, fake radio traffic and sound trucks to stage entire phantom divisions.',
+  },
+  {
+    question: 'The "Great Stink" of 1858 forced parliament to act in which city?',
+    choices: ['Paris', 'London', 'Vienna', 'New York'],
+    answer: 1,
+    info: 'The Thames smelled so bad that Parliament soaked its curtains in chloride of lime — then finally funded a modern sewer system.',
+  },
+  {
+    question: 'Did Viking helmets actually have horns?',
+    choices: [
+      'Yes, for intimidation',
+      'No — that’s a myth from opera costumes',
+      'Only chieftains wore them',
+      'Only in battle',
+    ],
+    answer: 1,
+    info: 'No horned Viking helmet has ever been found. The image comes from 19th-century opera costume designers.',
+  },
+  {
+    question: 'Albert Einstein was once offered the presidency of which country?',
+    choices: ['Switzerland', 'Germany', 'Israel', 'Austria'],
+    answer: 2,
+    info: 'Israel offered him the presidency in 1952. He declined, saying he lacked the "natural aptitude" for dealing with people.',
+  },
+  {
+    question: 'In 1867, Russia sold Alaska to the United States for roughly how much?',
+    choices: ['$7.2 million', '$72 million', '$720 million', '$1 billion'],
+    answer: 0,
+    info: 'About two cents per acre. Critics called it "Seward’s Folly" — until gold and oil were found.',
+  },
+  {
+    question: 'Ancient Egyptians shaved their eyebrows to mourn the death of what?',
+    choices: ['The pharaoh', 'Their family cat', 'The Nile flooding', 'A failed harvest'],
+    answer: 1,
+    info: 'Cats were sacred; killing one, even by accident, could carry the death penalty. The whole household shaved their eyebrows in mourning.',
+  },
+  {
+    question: 'In 1971, a man hijacked a plane, collected a $200,000 ransom, parachuted into the night and was never found. What name did he go by?',
+    choices: ['D.B. Cooper', 'John Doe', 'Jack Sparrow', 'Frank Abagnale'],
+    answer: 0,
+    info: 'D.B. Cooper remains the only unsolved air piracy case in US aviation history. The FBI officially gave up in 2016.',
+  },
+]

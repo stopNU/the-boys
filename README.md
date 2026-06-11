@@ -1,10 +1,10 @@
-# 🍺 The Boys — Quiz Night
+# 🍺 The Boys — Quiz Night (during the day)
 
-Trivia showdowns between **Patrick** and **Jacob**, built with [Vite](https://vite.dev) and React.
+Trivia showdowns between **Patrick**, **Jacob** and **Michael**, built with [Vite](https://vite.dev) and React.
 
-There are multiple quizzes (currently the **Beer Quiz** and the **Sofia Quiz**, 20 questions each). Each player picks a quiz and who they are, answers the questions one at a time, and gets instant feedback with a fun fact after every answer. Answers are saved in the browser (localStorage) per quiz and per player, so you can leave and resume. Once both players finish a quiz, the scoreboard declares a winner.
+There are multiple quizzes (beer, Sofia, Russia & the Balkans, Putin, Trump, spirits & cocktails, weird history — 20 questions each). Each player picks a quiz and who they are, answers the questions one at a time, and gets instant feedback with a fun fact after every answer. Answers are saved in the browser (localStorage) per quiz and per player, so you can leave and resume. Once everyone finishes a quiz, the scoreboard declares a winner.
 
-Since scores are stored in the browser, both players should play on the same device — pass the phone between rounds.
+Since scores are stored in the browser, all players should play on the same device — pass the phone between rounds.
 
 ## Running locally
 

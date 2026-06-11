@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { quizzes } from '../data/quizzes'
 
-const PLAYERS = ['Patrick', 'Jacob']
+const PLAYERS = ['Patrick', 'Jacob', 'Michael']
 const storageKey = (quizId, player) => `quiz:${quizId}:${player}`
 
 function loadAnswers(quizId, player) {
@@ -43,9 +43,9 @@ function QuizPicker({ onSelect }) {
               <span className="quiz-pick-description">{quiz.description}</span>
               <span className="player-status">
                 {finished.length === PLAYERS.length
-                  ? 'Both players finished ✔'
-                  : finished.length === 1
-                    ? `${finished[0]} has finished`
+                  ? 'Everyone finished ✔'
+                  : finished.length > 0
+                    ? `${finished.join(' and ')} finished`
                     : `${quiz.questions.length} questions`}
               </span>
             </button>
@@ -142,16 +142,17 @@ function Results({ quiz, player, onSwitchPlayer, onBack, onReset }) {
       score: scoreFor(quiz, answers),
     }
   })
-  const bothDone = scores.every((s) => s.done)
+  const allDone = scores.every((s) => s.done)
   const myScore = scores.find((s) => s.player === player)
 
   let verdict = null
-  if (bothDone) {
-    const [a, b] = scores
+  if (allDone) {
+    const top = Math.max(...scores.map((s) => s.score))
+    const winners = scores.filter((s) => s.score === top)
     verdict =
-      a.score === b.score
-        ? "🤝 It's a tie! Settle it over a beer."
-        : `🏆 ${a.score > b.score ? a.player : b.player} wins!`
+      winners.length > 1
+        ? `🤝 Tie between ${winners.map((w) => w.player).join(' and ')}! Settle it over a beer.`
+        : `🏆 ${winners[0].player} wins!`
   }
 
   return (
@@ -173,7 +174,9 @@ function Results({ quiz, player, onSwitchPlayer, onBack, onReset }) {
       {verdict ? (
         <p className="verdict">{verdict}</p>
       ) : (
-        <p className="verdict">Waiting for the other player to finish…</p>
+        <p className="verdict">
+          Waiting for {scores.filter((s) => !s.done).map((s) => s.player).join(' and ')} to finish…
+        </p>
       )}
       <div className="result-actions">
         <button onClick={onSwitchPlayer}>Switch player</button>
@@ -213,7 +216,7 @@ export default function QuizPage() {
   }
 
   const reset = () => {
-    if (!confirm(`Reset both players’ answers for the ${quiz.title}?`)) return
+    if (!confirm(`Reset everyone’s answers for the ${quiz.title}?`)) return
     PLAYERS.forEach((p) => localStorage.removeItem(storageKey(quiz.id, p)))
     setPlayer(null)
     setAnswers([])
